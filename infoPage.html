@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="beerInfo.js"></script>
+
+    <title>infopage</title>
+</head>
+
+<body>
+    <div class="infoContainer">
+        <div class="sokResult">
+            <p>Result</p>
+        </div>
+        <div class="innerContainer">
+            <img id="imgBox">
+            <div class="nameBox">
+                <div class="infoBox">
+                    <h2 id="beer-name"></h2>
+                    <h3 id="beer-discription"></h3>
+                    <div class="boxContainer ">
+                        <div class="infoBox1">
+                            <span class="beer-basic-info">Alc %: </span>
+                            <span class="beer-basic-info" id="beer-alc-per"></span>
+                        </div>
+                        <div class="infoBox2">
+                            <span class="beer-basic-info">ML: </span>
+                            <span class="beer-basic-info" id="beer-ml"></span>
+
+                        </div>
+                        <div classs="infoBox3">
+                            <span class="beer-basic-info">First brewed: </span>
+                            <span class="beer-basic-info" id="first-brewed"></span>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="buyContainer">
+
+                </div>
+                <div class="moreInfoBox">
+                    <h3>Ingredients</h3>
+                    <div id="Ingredients"></div>
+                    <p id="IngredientsAmount"></p>
+                    <div class="omDrycken">
+                        <h3>Hops </h3>
+                        <h3>Malt</h3>
+                        <p>Bryggeriet ligger i Petaluma, i Kalifornien, och grundades 1993 <br>av Tony Magee. Namnet Lagunitas kommer av orten där<br> bryggeriet ursprungligen låg en kort tid, innan det flyttade<br> till Petaluma.</p>
+                        <div class="övrigt">
+                            <h3>FOOD PAIRING</h3>
+                            <p id="foodPairing">
+                                <p>
+                                    <h3>Brewers Tips</h3>
+                                    <p id="brewersTips"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>

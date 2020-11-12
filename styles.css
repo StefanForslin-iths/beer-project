@@ -1,42 +1,81 @@
-body{
-    background-color: lightgray;
+body,
+html {
+    height: 100%;
+    margin: 0;
 }
-.h1beers{
-    position: center;
-    font-size: 80px;
-    margin-top: 10px;
-    font-family: 'Courier New', Courier, monospace;
+
+.contents {
+    display: contents;
 }
-.headerclass{
-    position: absolute;
-    background-color: lightgreen;
-    box-shadow: 0px 8px 16px 0px lime;
+
+#randomName {
+    height: 500px;
+    width: 400px;
 }
-.mainSection{
-    padding-top: 120px;
+
+#randomLabel {
+    height: 60%;
+    width: auto;
 }
-.dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: lightgreen;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  p, span{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-  }
-  span{
-    border: dotted blueviolet;
-  }
+
+.infoContainer {
+    width: 100%;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sokResult {
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    padding: 24px 0px 8px;
+}
+
+.innerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgBox {
+    /*height: 300px;
+    width: 500px;*/
+}
+
+.nameBox {
+    background-color: #f4efe8;
+}
+
+.infoBox {
+    background-color: #cfad99;
+}
+
+.buyContainer {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.buy {
+    background-color: #5f7264;
+    width: auto;
+}
+
+.boxContainer {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.moreInfoBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.beer-basic-info {
+    font-size: 16px;
+    font-weight: bold;
+}
